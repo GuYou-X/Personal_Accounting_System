@@ -1,0 +1,6 @@
+方法	端点	描述	参数
+GET	/api/transactions	获取所有交易记录	无
+POST	/api/transactions	添加交易记录	JSON数据
+DELETE	/api/transactions/:id	删除交易记录	路径参数id
+GET	/api/statistics	获取统计信息	无
+GET	/api/search	搜索交易记录	query参数keyword
